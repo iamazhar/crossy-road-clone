@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FF1B523C22099C1B00BB3F03 /* LaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B523B22099C1B00BB3F03 /* LaneNode.swift */; };
 		FF1B523E22099FD800BB3F03 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B523D22099FD800BB3F03 /* Utils.swift */; };
+		FF1B52402209C6D600BB3F03 /* CollisionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B523F2209C6D600BB3F03 /* CollisionNode.swift */; };
 		FF9B5B6F22085C1B0022B945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9B5B6E22085C1B0022B945 /* AppDelegate.swift */; };
 		FF9B5B7122085C1B0022B945 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9B5B7022085C1B0022B945 /* art.scnassets */; };
 		FF9B5B7322085C1B0022B945 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9B5B7222085C1B0022B945 /* GameViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		FF1B523B22099C1B00BB3F03 /* LaneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaneNode.swift; sourceTree = "<group>"; };
 		FF1B523D22099FD800BB3F03 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FF1B523F2209C6D600BB3F03 /* CollisionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionNode.swift; sourceTree = "<group>"; };
 		FF9B5B6B22085C1B0022B945 /* JumpyLane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpyLane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9B5B6E22085C1B0022B945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF9B5B7022085C1B0022B945 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				FF9B5B6E22085C1B0022B945 /* AppDelegate.swift */,
 				FF9B5B7022085C1B0022B945 /* art.scnassets */,
 				FF9B5B7222085C1B0022B945 /* GameViewController.swift */,
+				FF1B523F2209C6D600BB3F03 /* CollisionNode.swift */,
 				FF1B523D22099FD800BB3F03 /* Utils.swift */,
 				FF1B523B22099C1B00BB3F03 /* LaneNode.swift */,
 				FF9B5B7422085C1B0022B945 /* Main.storyboard */,
@@ -148,6 +151,7 @@
 				FF1B523C22099C1B00BB3F03 /* LaneNode.swift in Sources */,
 				FF9B5B7322085C1B0022B945 /* GameViewController.swift in Sources */,
 				FF9B5B6F22085C1B0022B945 /* AppDelegate.swift in Sources */,
+				FF1B52402209C6D600BB3F03 /* CollisionNode.swift in Sources */,
 				FF1B523E22099FD800BB3F03 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
