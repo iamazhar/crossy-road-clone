@@ -24,10 +24,10 @@ class CollisionNode: SCNNode {
     }
     
     func createPhysicsBodies() {
-        let boxGeometry = SCNBox(width: 0.24, height: 0.25, length: 0.25, chamferRadius: 0)
-        boxGeometry.firstMaterial?.diffuse.contents = UIColor.blue
+        let boxGeometry = SCNBox(width: 0.25, height: 0.25, length: 0.25, chamferRadius: 0)
+        boxGeometry.firstMaterial?.diffuse.contents = UIColor.clear
         
-        let shape = SCNPhysicsShape(geometry: boxGeometry, options: [SCNPhysicsShape.Option.type : SCNPhysicsShape.ShapeType.boundingBox])
+        let shape = SCNPhysicsShape(geometry: boxGeometry, options: [SCNPhysicsShape.Option.type: SCNPhysicsShape.ShapeType.boundingBox])
         
         front.geometry = boxGeometry
         right.geometry = boxGeometry
@@ -46,8 +46,8 @@ class CollisionNode: SCNNode {
         left.physicsBody?.contactTestBitMask = PhysicsCategory.vegetation
         
         front.position = SCNVector3(x: 0, y: 0.5, z: -1)
-        right.position = SCNVector3(1, 0.5, 0)
-        left.position = SCNVector3(-1, 0.5, 0)
+        right.position = SCNVector3(x: 1, y: 0.5, z: 0)
+        left.position = SCNVector3(x: -1, y: 0.5, z: 0)
         
         addChildNode(front)
         addChildNode(right)
