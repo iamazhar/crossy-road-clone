@@ -1,4 +1,4 @@
-# Crossy-Road-Clone-Swift
+# Crossy Road Clone
 Crossy road clone developed using Swift.
 
 Supports: iOS 10.x and above
